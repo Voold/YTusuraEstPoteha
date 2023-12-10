@@ -1,0 +1,77 @@
+@import url(https://db.onlinewebfonts.com/c/2d130488c7306881cf236b40ea2a1020?family=SB+Sans+Display+Semibold);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#head_box{
+	max-width: 1200px;
+	display: flex; 
+	justify-content: space-between;
+	border: 1px solid blue;
+}
+
+header{
+	border: 1px solid red;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+#MainName, #org_type{
+	margin-top: 4%;
+	vertical-align:top;
+	display: inline-block;
+	color: rgb(22,51,105);
+	border: 1px solid red;
+	font-size: 1.5em;
+	font-family: "SB Sans Display Semibold";
+	width: 80%;
+}
+
+#org_type{
+	font-size: 0.6em;
+	hyphens: manual;
+	width: 7	5%;
+	color: black;
+}
+
+#logo{
+	margin-top: 1%;
+	height: 130px;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+#adress{
+	margin-top: 1%;
+	display: inline-block;
+	border: 1px solid red;
+	width: 25%;
+	text-align: right;
+}
+
+#header_menu{
+	height: 45px;
+	border: 1px solid red;
+	background: rgb(23,72,115);
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.header_a{
+	cursor: pointer;
+	color: white;
+	text-decoration:none;
+	font-size:0.95em;
+	font-family: "SB Sans Display Semibold";
+	line-height: 45px;
+}
+
+.header_li{
+	display: inline-block;
+	border: 1px solid 	red;
+	
+}
