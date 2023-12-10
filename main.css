@@ -75,3 +75,10 @@ header{
 	border: 1px solid 	red;
 	
 }
+
+#show_panel{
+	height: 325px;
+	max-width: 1160px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
