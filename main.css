@@ -111,3 +111,34 @@ header{
 .bot_menu_el:hover{
 	background: white;
 }
+
+.SomeBlock{
+	max-width: 1350px;
+	margin: 0 auto;
+	display: flex;	
+}
+
+#firstBLline{
+	display: inline-block;
+	padding: 45px;
+	line-height: 50px;
+	width: 770px;
+	font-size: 1.9em;
+	font-family: "SB Sans Display Semibold";
+}
+#secondBLline{
+	display: inline-block;
+	height: 100%;
+	width: 560px;
+	background: url("https://pos.gosuslugi.ru/bin/banner-fluid/18/banner-fluid-bg-18-2.svg");
+}
+
+#best_but{
+	font-size: 0.7em;
+	font-family: "SB Sans Display Semibold";
+	height: 60px;
+	width: 250px;
+	border-radius: 5px;
+	background: white;
+	border: 0px;
+}
