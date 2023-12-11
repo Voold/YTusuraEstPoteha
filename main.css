@@ -6,14 +6,12 @@
 }
 
 #head_box{
-	max-width: 1200px;
+	width: 1200px;
 	display: flex; 
 	justify-content: space-between;
-	border: 1px solid blue;
 }
 
 header{
-	border: 1px solid red;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
@@ -24,7 +22,6 @@ header{
 	vertical-align:top;
 	display: inline-block;
 	color: rgb(22,51,105);
-	border: 1px solid red;
 	font-size: 1.5em;
 	font-family: "SB Sans Display Semibold";
 	width: 80%;
@@ -41,20 +38,17 @@ header{
 	margin-top: 1%;
 	height: 130px;
 	display: inline-block;
-	border: 1px solid red;
 }
 
 #adress{
 	margin-top: 1%;
 	display: inline-block;
-	border: 1px solid red;
 	width: 25%;
 	text-align: right;
 }
 
 #header_menu{
 	height: 45px;
-	border: 1px solid red;
 	background: rgb(23,72,115);
 	display: flex;
 	justify-content: space-around;
@@ -72,7 +66,6 @@ header{
 
 .header_li{
 	display: inline-block;
-	border: 1px solid 	red;
 	
 }
 
@@ -81,4 +74,15 @@ header{
 	max-width: 1160px;
 	border: 1px solid black;
 	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+/*	overflow: hidden;*/
+}
+
+.slide{
+	position: relative;
+	transition: all easy 1s;
+	left: 0;
+	top: 0;
+	background: white;
 }
