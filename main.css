@@ -28,6 +28,7 @@ header{
 }
 
 #org_type{
+	margin-top: 0%;
 	font-size: 0.6em;
 	hyphens: manual;
 	width: 7	5%;
@@ -72,11 +73,11 @@ header{
 #show_panel{
 	height: 325px;
 	max-width: 1160px;
-	border: 1px solid black;
+	border-radius: 3px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: nowrap;
-/*	overflow: hidden;*/
+	overflow: hidden;
 }
 
 .slide{
@@ -84,5 +85,29 @@ header{
 	transition: all easy 1s;
 	left: 0;
 	top: 0;
+	background: white;
+}
+
+#bottom_slide{
+	height: 77px;
+	max-width: 1160px;
+	margin: 0 auto;
+	background: rgb(250,250,250);
+	display: flex;
+}
+
+.bot_menu_el{
+	height: 65px;
+	width: 190px;
+	display: flex;
+	font-size: 0.89em;
+	padding-top: 10px;
+	text-align: center;
+	align-items: flex-start;
+/*	vertical-align: middle;*/
+	display: inline-block;
+}
+
+.bot_menu_el:hover{
 	background: white;
 }
