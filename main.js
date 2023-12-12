@@ -50,4 +50,6 @@ setInterval(
   5000
 );
 
-document.onclick = left();
+function vodka(){
+	alert('В стакане самогона')
+}

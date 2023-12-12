@@ -161,7 +161,7 @@ header{
 }
 
 #NewsBox{
-	width: 1165px;
+	width: 1160px;
 	height: 550px;
 	display: flex;
 	justify-content: space-between;
@@ -172,6 +172,7 @@ header{
 	height: 245px;
 	background: white;
 	box-shadow: 7px 11px 17px 0px rgba(0,0,0,0.02);
+	position: relative;
 }
 
 .low_news{
@@ -179,6 +180,48 @@ header{
 	margin-top: 20px;
 }
 
-.news_mini:hover{
+.news_mini:hover, .BigNews:hover{
 	box-shadow: 4px 5px 13px 4px rgba(0,0,0,0.1);
+	transition: all easy 1s;
+}
+
+.BigNews{
+	display: flex;
+	box-shadow: 7px 11px 17px 0px rgba(0,0,0,0.02);
+}
+
+.photoONE{
+	display: inline-block;
+	height: 400px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+
+.photoCont{
+	height: 135px;
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	background-size: contain;
+}
+
+.photoNews{
+	display: block;
+	margin: 0 auto;
+}
+
+.textNews{
+	line-height: 20px;
+	font-size: 0.8em;
+	padding: 0 10px 0 10px;
+	font-family: "SB Sans Display Semibold";
+}
+
+.NewsDate{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 0.7em;
+	margin: 0 7px 4px 0;
 }
