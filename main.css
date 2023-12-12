@@ -31,7 +31,7 @@ header{
 	margin-top: 0%;
 	font-size: 0.6em;
 	hyphens: manual;
-	width: 7	5%;
+	width: 75%;
 	color: black;
 }
 
@@ -104,7 +104,6 @@ header{
 	padding-top: 10px;
 	text-align: center;
 	align-items: flex-start;
-/*	vertical-align: middle;*/
 	display: inline-block;
 }
 
@@ -113,9 +112,9 @@ header{
 }
 
 .SomeBlock{
-	max-width: 1350px;
+	max-width: 1200px;
 	margin: 0 auto;
-	display: flex;	
+	display: flex;
 }
 
 #firstBLline{
@@ -141,4 +140,45 @@ header{
 	border-radius: 5px;
 	background: white;
 	border: 0px;
+}
+
+#leftSection, #rightSection{
+	height: 550px;
+	width: 450px;
+	display: inline-block;
+}
+
+#leftSection{
+	background: white;
+}
+
+#rightSection{
+	width: 690px;
+	height: 550px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#NewsBox{
+	width: 1165px;
+	height: 550px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_mini{
+	width: 215px;
+	height: 245px;
+	background: white;
+	box-shadow: 7px 11px 17px 0px rgba(0,0,0,0.02);
+}
+
+.low_news{
+	height: 280px;
+	margin-top: 20px;
+}
+
+.news_mini:hover{
+	box-shadow: 4px 5px 13px 4px rgba(0,0,0,0.1);
 }
