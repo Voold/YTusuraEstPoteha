@@ -17,8 +17,7 @@ header{
 	justify-content: space-around;
 }
 
-#MainName, #org_type{
-	margin-top: 4%;
+.MainName, #org_type{
 	vertical-align:top;
 	display: inline-block;
 	color: rgb(22,51,105);
@@ -224,4 +223,78 @@ header{
 	right: 0;
 	font-size: 0.7em;
 	margin: 0 7px 4px 0;
+}
+
+.PartnersLine{
+	height: 390px;
+	background: white;
+}
+
+#PartnersCont{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1150px;
+}
+
+.Partner{
+	display: inline-block;
+	height: 187px;
+	width: 187px;
+	border-radius: 50%;
+	border: 1px solid black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.PrideLine{
+	width: 1300px;
+	height: 340px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.PridePerson{
+	width: 560px;
+	height: 275px;
+	background: white;
+	margin: 20px 0 0 80px;
+	display: flex;
+}
+
+#PrideActiveLine{
+	display: flex;
+	width: 2350px;
+}
+
+.PridePerPhoto{
+	height: 200px;
+	width: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.PridePerDesc{
+	width: 360px;
+	padding: 15px;
+	font-size: 0.9em;
+	font-family: "SB Sans Display Semibold";
+}
+
+.PrideName{
+	display: block;
+	font-size: 1.4em;
+	margin-bottom: 14px;
+}
+
+.PridePerText{
+	width: 300px;
+	line-height: 20px;
+}
+
+.botDesc{
+	font-family: sans-serif;
+	margin-top: 20px;
+	font-size: 0.8em;
 }
