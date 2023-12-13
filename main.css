@@ -253,19 +253,23 @@ header{
 	height: 340px;
 	margin: 0 auto;
 	overflow: hidden;
+	position: relative;
 }
 
 .PridePerson{
 	width: 560px;
 	height: 275px;
 	background: white;
-	margin: 20px 0 0 80px;
+	margin: 20px 15px 0 60px;
 	display: flex;
 }
 
 #PrideActiveLine{
 	display: flex;
 	width: 2350px;
+	transition: 0.6s linear;
+	position: relative;
+	right: 0;
 }
 
 .PridePerPhoto{
@@ -297,4 +301,22 @@ header{
 	font-family: sans-serif;
 	margin-top: 20px;
 	font-size: 0.8em;
+}
+
+#arrowR, #arrowL {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	right: -5px;
+	bottom: 170px;
+	background-image: url(assets/service/arrow.svg);
+	background-size: contain;
+	transform: rotate(-90deg);
+	cursor: pointer;
+}
+
+#arrowL {
+	left: 5px;
+	bottom: 170px;
+	transform: rotate(90deg);
 }
