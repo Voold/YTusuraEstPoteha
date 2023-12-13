@@ -1,14 +1,13 @@
-var PrideActiveLine = document.getElementById("PrideActiveLine");
-var move = 0;
+let PrideActiveLine = document.getElementById("PrideActiveLine");
+let move = 0;
 
 
-document.getElementById("ButR").addEventListener("click", ButRcl);
-document.getElementById("ButL").addEventListener("click", ButLcl);
+document.getElementById("ButR").addEventListener("click", ButRcl, true);
+document.getElementById("ButL").addEventListener("click", ButLcl, true);
 
 
 
 function ButRcl(){
-	PrideActiveLine.style.background = "red";
 	if (move < 640)
 		move+=640;
 	if (move == 640 )
@@ -16,11 +15,8 @@ function ButRcl(){
 }
 
 function ButLcl(){
-	PrideActiveLine.style.background = "green";
 	if (move == 640)
 		move = 0;
 	if (move == 0)
-		PrideActiveLine.style.cssText="right: +"+move+"px;";
-
-		
+		PrideActiveLine.style.cssText="right: +"+move+"px;";		
 }

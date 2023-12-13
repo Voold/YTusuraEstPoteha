@@ -53,6 +53,10 @@ header{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+	z-index: 5;
 }
 
 .header_a{
@@ -62,6 +66,11 @@ header{
 	font-size:0.95em;
 	font-family: "SB Sans Display Semibold";
 	line-height: 45px;
+	padding: 15px;
+}
+
+.header_a: hover{
+	background: rgb(19,82,128);
 }
 
 .header_li{
@@ -304,6 +313,7 @@ header{
 }
 
 #arrowR, #arrowL {
+	display: none;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -312,11 +322,58 @@ header{
 	background-image: url(assets/service/arrow.svg);
 	background-size: contain;
 	transform: rotate(-90deg);
-	cursor: pointer;
 }
 
 #arrowL {
 	left: 5px;
 	bottom: 170px;
 	transform: rotate(90deg);
+}
+
+#ButR, #ButL {
+	cursor: pointer;
+}
+
+footer{
+	background: rgb(23,72,115);
+}
+
+.Box{
+	padding: 50px;
+	display: flex;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.column{
+	width: 230px;	
+	margin-right: 60px;
+}
+
+.ColumnName{
+	font-family: "SB Sans Display Semibold";
+	font-size: 1.25em;
+	line-height: 25px;
+	color: white;	
+	margin-bottom: 30px;;
+}
+
+.column a{
+	font-size: 1.1em;
+	display: block;
+	text-decoration:none;
+	color: white;	
+	margin-top: 10px;
+}
+
+.column a:hover{
+	color: orange;
+}
+
+#rights{
+	background: rgb(17,57,92);
+	height: 60px;
+	line-height: 60px;
+	color: darkgrey;
+	text-align: center;
 }
