@@ -53,3 +53,9 @@ setInterval(
 function vodka(){
 	alert('Чтобы узнать продолжение истоии переведите 1000р на карту 2202 3221 2312 3231 (Сбер)')
 }
+
+document.getElementById("HDa1").addEventListener("hover", checkMB);
+
+function checkMB(el){
+	alert('hello');
+}

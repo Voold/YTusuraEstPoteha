@@ -51,7 +51,7 @@ header{
 	height: 45px;
 	background: rgb(23,72,115);
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: nowrap;
 	position: -webkit-sticky;
   position: sticky;
@@ -66,16 +66,44 @@ header{
 	font-size:0.95em;
 	font-family: "SB Sans Display Semibold";
 	line-height: 45px;
-	padding: 15px;
-}
-
-.header_a: hover{
-	background: rgb(19,82,128);
+	padding: 0 15px;
 }
 
 .header_li{
-	display: inline-block;
-	
+	display: inline-block;	
+	position: relative;
+}
+
+.header_li:hover{
+	background: rgb(17,57,92);
+}
+
+.hidblock{
+	box-shadow: 7px 11px 17px 0px rgba(0,0,0,0.02);
+	background: white;
+	display: none;
+	position: absolute;
+	height: auto;
+	width: 100px;
+}
+
+.hidblock .topMenuEl{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: dimgrey;
+}
+
+.header_li:hover .hidblock{
+	display: block;
+}
+
+
+.topMenuEl:hover{
+	background: rgb(247,252,255);
 }
 
 #show_panel{
@@ -375,5 +403,5 @@ footer{
 	height: 60px;
 	line-height: 60px;
 	color: darkgrey;
-	text-align: center;
+	text-align: center; 
 }
